@@ -154,14 +154,25 @@ body {
 .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-inner .carousel_img {
   width: 540px;
 }
-.back_ellipse .container .hero_wrap .hero_left .carousel_slide .next {
-  margin-right: 20px;
+.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-next {
+  right: -50px;
 }
-.back_ellipse .container .hero_wrap .hero_left .carousel_slide .next_right {
-  margin-left: 10px;
+.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-prev {
+  left: -36px;
 }
 .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-indicators {
-  top: 321px;
+  top: 350px;
+  justify-content: space-between;
+  margin-right: 13px;
+  margin-left: 13px;
+  gap: 20px;
+}
+.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-indicators button {
+  flex: 1;
+  border: 1px solid #f1f1f1;
+}
+.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-indicators .active {
+  background-color: #4361ee;
 }
 .back_ellipse .container .hero_right {
   padding-right: 60px;
@@ -182,7 +193,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 83px 29px 83px;
+  padding: 0 40px;
   margin: 0 auto;
   border-bottom: 1px solid #808080;
 }
@@ -195,6 +206,7 @@ body {
   line-height: 26px;
   color: #808080;
   position: relative;
+  padding: 0 43px;
 }
 .back_ellipse .container .hero_right .cards ul li a::after {
   position: absolute;
@@ -204,7 +216,7 @@ body {
   border-radius: 20px;
   background-color: #3a0ca3;
   left: 0;
-  bottom: -23px;
+  bottom: -28px;
 }
 .back_ellipse .container .hero_right .cards ul li a:hover {
   color: #3a0ca3;
@@ -323,11 +335,15 @@ body {
 
 /**/
 .real-estate .container .estate {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 100px;
   margin-bottom: 200px;
+}
+.real-estate .container .estate .left_information {
+  flex: 1;
 }
 .real-estate .container .estate .left_information .left_p1 {
   font-weight: 500;
@@ -342,13 +358,15 @@ body {
   line-height: 47px;
   color: #2b2b2b;
   margin-top: 40px;
+  margin-bottom: 0;
 }
 .real-estate .container .estate .left_information .left_p2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #808080;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .real-estate .container .estate .left_information .donec_box {
   width: 400px;
@@ -382,7 +400,7 @@ body {
   height: auto;
   border-radius: 30px;
   box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.0588235294);
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -403,6 +421,16 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #808080;
+}
+.real-estate .container .estate .right_img {
+  flex: 1;
+  gap: 20px;
+}
+.real-estate .container .estate .right_img .right_img1 {
+  padding-top: 47px;
+}
+.real-estate .container .estate .right_img .right_img2 img:first-child {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

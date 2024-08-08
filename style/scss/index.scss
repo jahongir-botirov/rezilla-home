@@ -173,15 +173,28 @@ body {
               width: 540px;
             }
           }
-          .next {
-            margin-right: 20px;
+
+          .carousel-control-next {
+            right: -50px;
           }
-          .next_right {
-            margin-left: 10px;
+          .carousel-control-prev {
+            left: -36px;
           }
 
           .carousel-indicators {
-            top: 321px;
+            top: 350px;
+            justify-content: space-between;
+            margin-right: 13px;
+            margin-left: 13px;
+            gap: 20px;
+            button {
+              flex: 1;
+              border: 1px solid #f1f1f1;
+              // width: 100px;
+            }
+          }
+          .carousel-indicators .active {
+            background-color: #4361ee;
           }
         }
       }
@@ -206,7 +219,7 @@ body {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 40px 83px 29px 83px;
+          padding: 0 40px;
           margin: 0 auto;
           border-bottom: 1px solid $text-colour3;
           li {
@@ -218,6 +231,7 @@ body {
               line-height: 26px;
               color: $text-colour3;
               position: relative;
+              padding: 0 43px;
 
               &::after {
                 position: absolute;
@@ -229,7 +243,7 @@ body {
                 border-radius: 20px;
                 background-color: $primary-color;
                 left: -0;
-                bottom: -23px;
+                bottom: -28px;
               }
               &:hover {
                 color: $primary-color;
@@ -376,6 +390,7 @@ body {
 .real-estate {
   .container {
     .estate {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -383,6 +398,7 @@ body {
       margin: 0 100px;
       margin-bottom: 200px;
       .left_information {
+        flex: 1;
         .left_p1 {
           font-weight: 500;
           font-size: 19.4px;
@@ -397,13 +413,15 @@ body {
           line-height: 47px;
           color: $text-colour2;
           margin-top: 40px;
+          margin-bottom: 0;
         }
         .left_p2 {
           font-weight: 400;
           font-size: 16px;
           line-height: 26px;
           color: $text-colour3;
-          padding-top: 20px;
+          margin-top: 20px;
+          margin-bottom: 0;
         }
 
         .donec_box {
@@ -446,7 +464,7 @@ body {
 
           border-radius: 30px;
           box-shadow: 4px 10px 30px 0px #0000000f;
-          margin-top: 40px;
+          margin-top: 30px;
 
           display: flex;
           justify-content: flex-start;
@@ -470,6 +488,20 @@ body {
               font-size: 16px;
               line-height: 26px;
               color: $text-colour3;
+            }
+          }
+        }
+      }
+      .right_img {
+        flex: 1;
+        gap: 20px;
+        .right_img1 {
+          padding-top: 47px;
+        }
+        .right_img2 {
+          img {
+            &:first-child {
+              margin-bottom: 20px;
             }
           }
         }
