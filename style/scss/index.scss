@@ -1087,6 +1087,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .carousel-control-prev {
+      color: black;
+      svg {
+        fill: black;
+      }
+    }
+    .carousel-inner {
+      height: 400px;
+    }
+    .carousel-item {
+      transition: transform 0.6s ease-in-out;
+    }
+    .carousel-item-next:not(.carousel-item-start),
+    .active.carousel-item-end {
+      transform: translateY(100%);
+    }
+    .carousel-item-prev:not(.carousel-item-end),
+    .active.carousel-item-start {
+      transform: translateY(-100%);
+    }
     .testimonials_left {
       .left_p1 {
         font-weight: 500;

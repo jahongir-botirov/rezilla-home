@@ -928,6 +928,26 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.container .testimonials .carousel-control-prev {
+  color: black;
+}
+.container .testimonials .carousel-control-prev svg {
+  fill: black;
+}
+.container .testimonials .carousel-inner {
+  height: 400px;
+}
+.container .testimonials .carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+.container .testimonials .carousel-item-next:not(.carousel-item-start),
+.container .testimonials .active.carousel-item-end {
+  transform: translateY(100%);
+}
+.container .testimonials .carousel-item-prev:not(.carousel-item-end),
+.container .testimonials .active.carousel-item-start {
+  transform: translateY(-100%);
+}
 .container .testimonials .testimonials_left .left_p1 {
   font-weight: 500;
   font-size: 19.4px;
