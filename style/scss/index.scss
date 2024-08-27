@@ -1098,6 +1098,7 @@ body {
     }
     .carousel-item {
       transition: transform 0.6s ease-in-out;
+      float: none;
     }
     .carousel-item-next:not(.carousel-item-start),
     .active.carousel-item-end {
@@ -1174,19 +1175,36 @@ body {
         rgba(0, 0, 0, 0.5) 100%
       );
     }
-    .vertical.carousel .carousel-control .glyphicon {
+    .carousel .carousel-control .glyphicon {
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
     }
-    .vertical.carousel .carousel-indicators {
+
+    .carousel .carousel-indicators {
       bottom: auto;
       top: 50%;
       left: auto;
-      right: 10px;
+      right: -20px;
       width: 14px;
       margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
+
+      button {
+        width: 2px;
+        height: 35px;
+        background-color: #000;
+        opacity: 0.4;
+      }
+
+      .active {
+        background-color: #000;
+        opacity: 1;
+      }
     }
     .vertical.carousel .carousel-inner > .item {
       left: 0;
@@ -1272,20 +1290,6 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-
-.carousel-indicators {
-  position: absolute;
-  right: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  .active {
-    background-color: #0b090a;
-    width: 2px;
-    height: 37.14px;
-  }
 }
 
 .become-agent {

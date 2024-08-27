@@ -938,6 +938,7 @@ body {
 }
 .container .testimonials .carousel-item {
   transition: transform 0.6s ease-in-out;
+  float: none;
 }
 .container .testimonials .carousel-item-next:not(.carousel-item-start),
 .container .testimonials .active.carousel-item-end {
@@ -981,19 +982,33 @@ body {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
-.container .testimonials .vertical.carousel .carousel-control .glyphicon {
+.container .testimonials .carousel .carousel-control .glyphicon {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-.container .testimonials .vertical.carousel .carousel-indicators {
+.container .testimonials .carousel .carousel-indicators {
   bottom: auto;
   top: 50%;
   left: auto;
-  right: 10px;
+  right: -20px;
   width: 14px;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.container .testimonials .carousel .carousel-indicators button {
+  width: 2px;
+  height: 35px;
+  background-color: #000;
+  opacity: 0.4;
+}
+.container .testimonials .carousel .carousel-indicators .active {
+  background-color: #000;
+  opacity: 1;
 }
 .container .testimonials .vertical.carousel .carousel-inner > .item {
   left: 0;
@@ -1074,20 +1089,6 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-
-.carousel-indicators {
-  position: absolute;
-  right: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.carousel-indicators .active {
-  background-color: #0b090a;
-  width: 2px;
-  height: 37.14px;
 }
 
 .become-agent .container .become-wraps {
