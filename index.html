@@ -12,8 +12,8 @@
     />
     <!--fonts-->
     <link rel="stylesheet" href="./style/fonts/poppins-v21-latin/index.css" />
-    <link rel="stylesheet" href="./style/css/index.css" />  
-    <link rel="stylesheet" href="./style/css/responsive.css">
+    <link rel="stylesheet" href="./style/css/index.css" />
+    <link rel="stylesheet" href="./style/css/responsive.css" />
 
     <title>rezilla home</title>
   </head>
@@ -64,7 +64,7 @@
       <div class="container">
         <nav class="nav_bar d-flex justify-content-between align-items-center">
           <ul
-            class="nav_meu d-flex justify-content-between align-items-center list-unstyled mb-0"
+            class="nav_menu d-flex justify-content-between align-items-center list-unstyled mb-0"
           >
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -72,6 +72,7 @@
             <li><a href="#">Services</a></li>
             <li><a href="#">Blogs</a></li>
           </ul>
+
           <button
             class="nav_btn d-flex align-items-center gap-2 border border-0"
           >
@@ -82,6 +83,9 @@
               />
             </span>
             <p class="btn_rezilla mb-0">Rezilla</p>
+          </button>
+          <button class="header__burger">
+            <div class="header__burger-box"></div>
           </button>
 
           <div class="nav_register d-flex align-items-center gap-4">
@@ -97,9 +101,35 @@
             </button>
           </div>
         </nav>
+
+        
+      </div>
+
+      <div class="mobile_header">
+        <div class="mobile_nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Listings</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="nav_register d-flex align-items-center gap-4">
+          <a href="#" class="nav-contact d-flex align-items-center gap-2">
+            <img src="./img/header/🦆 icon _user circle alt_.png" alt="" />
+            <p class="login mb-0">Login/Register</p>
+          </a>
+          <button class="nav_btn_2 border border-0">
+            <div class="btn_wrap d-flex align-items-center gap-2">
+              <img src="./img/header/btn-icon.png" alt="" />
+              <p class="btn_listing mb-0">Add Listing</p>
+            </div>
+          </button>
+        </div>
       </div>
     </header>
-    <section>
+     <section>
       <div class="back_ellipse">
        
         <div class="container">
@@ -170,7 +200,7 @@
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  class="carousel-control-prev horizontal"
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide="prev"
@@ -182,7 +212,7 @@
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next"
+                  class="carousel-control-next horizontal"
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide="next"
@@ -414,6 +444,7 @@
         </div>
       </div>
     </section>
+  
     <section>
       <div class="big_home">
         <div class="container">
@@ -525,7 +556,7 @@
         </div>
       </div>
     </section>
-
+ 
     <section>
       <div class="our_servise">
         <div class="container">
@@ -576,6 +607,8 @@
         </div>
       </div>
     </section>
+
+    
     <section>
       <div class="img_collactions">
        
@@ -640,7 +673,7 @@
         </div>
       </div>
     </section>
-
+     
     <section>
       <div class="our-team">
         <div class="container">
@@ -890,6 +923,8 @@
         </div>
       </div>
     </section>
+
+   
     <section>
       <div class="become-agent">
         <div class="container">
@@ -918,7 +953,7 @@
         </div>
       </div>
     </section>
-
+     
     <footer>
       <div class="container">
         <div class="the-and">
@@ -1000,11 +1035,13 @@
         </div>
       </div>
     </footer>
-
+<!---->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>

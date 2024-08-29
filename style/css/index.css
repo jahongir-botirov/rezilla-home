@@ -40,7 +40,7 @@ body {
   background-color: #ffffff !important;
 }
 
-.nav_meu > li > a {
+.nav_menu > li > a {
   color: #2b2b2b;
   padding: 13px 16px;
   font-size: 16px;
@@ -49,7 +49,7 @@ body {
   border-radius: 30px;
 }
 
-.nav_meu > li > a:hover {
+.nav_menu > li > a:hover {
   background-color: rgba(67, 97, 238, 0.3019607843);
   transition: all 0.3s;
 }
@@ -106,6 +106,10 @@ body {
   border-radius: 0px 0px 1000px 1000px;
 }
 
+.mobile_header {
+  display: none;
+}
+
 /***/
 .back_ellipse .mini_ellipse {
   position: absolute;
@@ -152,11 +156,15 @@ body {
 .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-inner .carousel_img {
   width: 540px;
 }
-.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-next {
-  right: -50px;
+.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-next.horizontal {
+  top: 45%;
+  right: -20px;
+  border: none;
 }
-.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-prev {
-  left: -36px;
+.back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-prev.horizontal {
+  top: 45%;
+  left: -14px;
+  border: none;
 }
 .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-indicators {
   top: 350px;
