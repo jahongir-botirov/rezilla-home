@@ -193,8 +193,9 @@
             }
 
             .left_h1 {
-              font-size: 40px;
-              line-height: 50px;
+              font-size: 39.8px;
+              line-height: 47px;
+              margin: 0;
             }
 
             .left_lorem {
@@ -370,3 +371,74 @@
     }
   }
 }
+
+
+/**/
+
+@media only screen and (max-width: 600px){
+
+
+  .back_ellipse{
+
+    .container{
+
+      .hero_wrap{
+        margin-top: 50px;
+        .hero_left{
+          padding: 0;
+
+
+          .mini_ellipse{
+            right:0;
+          }
+
+          .left_estet{
+            line-height: 24px;
+          }
+
+
+
+          .left_lorem{
+            font-size: 13px;
+            line-height: 22px;
+          }
+
+          #carouselExampleIndicators{
+            width: 100%;
+            height: auto;
+
+
+            img{
+              width: 100%;
+            }
+
+            .carousel-indicators{
+              top: 107%;
+            }
+
+            .carousel-control-prev{
+              left:8px;
+              img{
+                width: 70px;
+                height: 70px;
+                
+              }
+            }
+
+            .carousel-control-next {
+              right: 0;
+              img{
+                width: 70px;
+                height: 70px;
+
+              }
+            }
+          }
+        }
+      }
+
+    }
+   
+  }
+}
+

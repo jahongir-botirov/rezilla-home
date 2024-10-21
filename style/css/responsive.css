@@ -154,8 +154,9 @@
     font-size: 15px;
   }
   section .back_ellipse .container .hero_wrap .hero_left .left_h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 39.8px;
+    line-height: 47px;
+    margin: 0;
   }
   section .back_ellipse .container .hero_wrap .hero_left .left_lorem {
     font-size: 15px;
@@ -262,6 +263,49 @@
   .container .the-and {
     flex-wrap: wrap;
     gap: 70px;
+  }
+}
+/**/
+@media only screen and (max-width: 600px) {
+  .back_ellipse .container .hero_wrap {
+    margin-top: 50px;
+  }
+  .back_ellipse .container .hero_wrap .hero_left {
+    padding: 0;
+  }
+  .back_ellipse .container .hero_wrap .hero_left .mini_ellipse {
+    right: 0;
+  }
+  .back_ellipse .container .hero_wrap .hero_left .left_estet {
+    line-height: 24px;
+  }
+  .back_ellipse .container .hero_wrap .hero_left .left_lorem {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators {
+    width: 100%;
+    height: auto;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators img {
+    width: 100%;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators .carousel-indicators {
+    top: 107%;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators .carousel-control-prev {
+    left: 8px;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators .carousel-control-prev img {
+    width: 70px;
+    height: 70px;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators .carousel-control-next {
+    right: 0;
+  }
+  .back_ellipse .container .hero_wrap .hero_left #carouselExampleIndicators .carousel-control-next img {
+    width: 70px;
+    height: 70px;
   }
 }
 
