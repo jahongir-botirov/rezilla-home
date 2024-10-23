@@ -264,5 +264,167 @@
     gap: 70px;
   }
 }
+@media only screen and (max-width: 600px) {
+  section .back_ellipse .container {
+    padding: 0 30px;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left {
+    padding: 0;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .left_estet {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .left_h1 {
+    font-size: 39.8px;
+    line-height: 47px;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .left_lorem {
+    font-size: 13.3px;
+    line-height: 22px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide {
+    width: 100%;
+    height: auto;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-inner .carousel_img {
+    width: 100%;
+    height: auto;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-next.horizontal {
+    top: 39%;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-next.horizontal img {
+    width: 75px;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-prev.horizontal {
+    top: 39%;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-control-prev.horizontal img {
+    width: 75px;
+  }
+  section .back_ellipse .container .hero_wrap .hero_left .carousel_slide .carousel-indicators {
+    top: 105%;
+  }
+  section .back_ellipse .container .hero_wrap .hero_right .cards {
+    width: 100%;
+  }
+  section .back_ellipse .container .hero_wrap .hero_right .cards {
+    display: none;
+  }
+  section .back_ellipse .container .contacts_mans {
+    display: flex;
+    flex-direction: column;
+  }
+  section .back_ellipse .container .contacts_mans .members {
+    width: 333px;
+    height: 92.5px;
+  }
+  section .back_ellipse .container .contacts_mans .members .mans .customers {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  section .back_ellipse .container .contacts_mans .table {
+    width: 333px;
+    height: 100px;
+  }
+  section .back_ellipse .container .contacts_mans .table .table_p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 25px;
+  }
+  .partners .container .partners_logo {
+    padding: 0 20px;
+  }
+  .real-estate .container .estate {
+    margin: 0 20px;
+  }
+  .real-estate .container .estate .left_information .left_p1 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3px;
+  }
+  .real-estate .container .estate .left_information .left_h3 {
+    font-size: 27.6px;
+    line-height: 41.4px;
+    margin-top: 0;
+  }
+  .real-estate .container .estate .left_information .left_p2 {
+    font-size: 13.3px;
+    line-height: 22px;
+  }
+  .real-estate .container .estate .left_information .donec_box {
+    width: 333px;
+    height: 117px;
+  }
+  .real-estate .container .estate .left_information .donec_box .donic_wrap .wrap_p1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .real-estate .container .estate .left_information .donec_box .donic_wrap .wrap_p2 {
+    font-size: 13.3px;
+    line-height: 22px;
+  }
+  .real-estate .container .estate .left_information .donec_box2 {
+    width: 333px;
+    height: 117px;
+  }
+  .real-estate .container .estate .left_information .donec_box2 .donic_wrap .wrap_p1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .real-estate .container .estate .left_information .donec_box2 .donic_wrap .wrap_p2 {
+    font-size: 13.3px;
+    line-height: 22px;
+  }
+  .real-estate .container .estate .right_img {
+    margin-top: 60px;
+  }
+  .real-estate .container .estate .right_img .img_position {
+    width: 124px;
+    height: 124px;
+    top: -38px;
+  }
+  .real-estate .container .estate .right_img .right_img1 {
+    padding-top: 30px;
+  }
+  .real-estate .container .estate .right_img .right_img1 img {
+    width: 170px !important;
+    height: 260px !important;
+  }
+  .real-estate .container .estate .right_img .right_img2 img:nth-child(1) {
+    width: 143px;
+    height: 141px;
+  }
+  .real-estate .container .estate .right_img .right_img2 img:nth-child(2) {
+    width: 143px;
+    height: 100px;
+  }
+  .big_home .container .checkout {
+    padding: 0 10px;
+  }
+  .big_home .container .checkout .checkout_left .checkout_p1 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+  }
+  .big_home .container .checkout .checkout_left .checkout_h3 {
+    font-size: 27.6px;
+    line-height: 41.4px;
+  }
+  .big_home .container .checkout .checkout_left .checkout_p2 {
+    font-size: 13.3px;
+    line-height: 22px;
+    padding-bottom: 40px;
+  }
+  .seconf {
+    font-stretch: 65px;
+    font-size: 32px;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */

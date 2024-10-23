@@ -370,3 +370,286 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  section {
+    .back_ellipse {
+      .container {
+        padding: 0 30px;
+        .hero_wrap {
+          .hero_left {
+            padding: 0;
+            .left_estet {
+              font-size: 16px;
+              line-height: 24px;
+            }
+
+            .left_h1 {
+              font-size: 39.8px;
+              line-height: 47px;
+            }
+
+            .left_lorem {
+              font-size: 13.3px;
+              line-height: 22px;
+              display: flex;
+              flex-wrap: wrap;
+            }
+
+            .carousel_slide {
+              width: 100%;
+              height: auto;
+              .carousel-inner {
+                .carousel_img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .carousel-control-next.horizontal {
+                top: 39%;
+
+                img {
+                  width: 75px;
+                }
+              }
+
+              .carousel-control-prev.horizontal {
+                top: 39%;
+
+                img {
+                  width: 75px;
+                }
+              }
+
+              .carousel-indicators {
+                top: 105%;
+              }
+            }
+          }
+
+          .hero_right {
+            .cards {
+              width: 100%;
+            }
+          }
+
+          .hero_right{
+
+
+            .cards{
+              display: none;
+            }
+          }
+        }
+
+
+        .contacts_mans{
+          display: flex; 
+          flex-direction: column;
+         
+
+          .members{
+            width: 333px;
+            height: 92.5px;
+
+
+            .mans{
+
+
+              .customers{
+                font-size: 16px;
+                line-height: 24px;
+
+              }
+            }
+          }
+
+          .table{
+            width: 333px;
+            height: 100px;
+
+
+            .table_p{
+              font-size: 16px;
+              line-height: 24px;
+              padding-right: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  .partners{
+    
+    .container{
+
+      .partners_logo{
+
+        padding: 0 20px;
+      }
+    }
+  }
+
+
+  .real-estate{
+
+    .container{
+
+      .estate{
+        margin: 0 20px;
+
+        .left_information{
+
+          .left_p1{
+
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 3px;
+
+          }
+
+          .left_h3{
+
+            font-size: 27.6px;
+            line-height: 41.4px;
+            margin-top: 0;
+
+          }
+
+          .left_p2{
+            font-size: 13.3px;
+            line-height: 22px;
+
+
+          }
+
+          .donec_box{
+            width: 333px;
+            height: 117px;
+
+
+            .donic_wrap{
+
+
+              .wrap_p1{
+                font-size: 16px;
+                line-height: 24px;
+
+              }
+
+              .wrap_p2{
+                font-size: 13.3px;
+                line-height: 22px;
+              }
+            }
+          }
+
+          .donec_box2{
+            width: 333px;
+            height: 117px;
+
+
+            .donic_wrap{
+
+              .wrap_p1{
+                font-size: 16px;
+                line-height: 24px;
+
+              }
+
+              .wrap_p2{
+                font-size: 13.3px;
+                line-height: 22px;
+              }
+            }
+
+          }
+
+        }
+
+        .right_img{
+          margin-top: 60px;
+
+          .img_position{
+            width: 124px;
+            height: 124px;
+            top: -38px;
+
+          }
+
+
+          .right_img1{
+            padding-top: 30px;
+
+            img{
+              width: 170px !important;
+              height: 260px !important;
+            }
+           
+          }
+
+          .right_img2{
+
+            img:nth-child(1){
+              width: 143px;
+              height: 141px;
+              
+            }
+
+            img:nth-child(2){
+              width: 143px;
+              height: 100px;
+
+
+            }
+          }
+        }
+
+
+
+      }
+
+    }
+  }
+
+
+  .big_home{
+    .container{
+      .checkout{
+        padding:0 10px;
+        .checkout_left{
+          .checkout_p1{
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 3px;
+            padding-top: 100px;
+            padding-bottom: 5px;
+          }
+
+          .checkout_h3{
+            font-size: 27.6px;
+            line-height: 41.4px;
+
+
+          }
+
+          .checkout_p2{
+            font-size: 13.3px;
+            line-height: 22px;
+            padding-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .seconf {
+    font-stretch: 65px;
+    font-size: 32px;
+  }
+}
