@@ -154,8 +154,9 @@
     font-size: 15px;
   }
   section .back_ellipse .container .hero_wrap .hero_left .left_h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 39.8px;
+    line-height: 47px;
+    margin: 0;
   }
   section .back_ellipse .container .hero_wrap .hero_left .left_lorem {
     font-size: 15px;
